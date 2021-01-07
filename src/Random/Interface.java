@@ -22,8 +22,8 @@ public class Interface {
 
     public static class Array<T> extends ArrayList<T> {
         @Override
-        public Iterator iterator() {
-            return new Iterator() {
+        public Iterator<T> iterator() {
+            return new Iterator<T>() {
                 private int i = 0;
 
                 @Override
