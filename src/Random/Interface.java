@@ -1,6 +1,5 @@
 package Random;
 
-import po2.zoo.Animal;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,6 +7,18 @@ import java.util.List;
 import java.util.Random;
 
 public class Interface {
+
+    public static class Animal{
+        private int weight;
+
+        public Animal(int weight) {
+            this.weight = weight;
+        }
+
+        public int getWeight() {
+            return weight;
+        }
+    }
 
     public static class Array<T> extends ArrayList<T> {
         @Override

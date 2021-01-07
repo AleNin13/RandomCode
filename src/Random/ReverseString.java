@@ -1,6 +1,5 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,7 +30,6 @@ public class ReverseString {
     }
 
     public static class RevStrArray extends ArrayList<String>{
-        @NotNull
         @Override
         public Iterator<String> iterator() {
             return new Iterator<String>() {

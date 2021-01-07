@@ -1,6 +1,5 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,7 +8,6 @@ import java.util.Random;
 
 public class IteRandom {
     public static class RndList<A> extends ArrayList<A> {
-        @NotNull
         @Override
         public Iterator<A> iterator() {
             return new Iterator<A>() {

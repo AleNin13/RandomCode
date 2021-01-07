@@ -1,6 +1,6 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
+
 
 import java.util.Iterator;
 import java.util.List;
@@ -10,7 +10,6 @@ public class IterableMap {
 
     public static <S,T> Iterable<S> mapIterator(Iterable<T> i , Function<T,S> f){
         return new Iterable<S>() {
-            @NotNull
             @Override
             public Iterator<S> iterator() {
                 return new Iterator<S>() {

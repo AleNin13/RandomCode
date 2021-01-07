@@ -1,8 +1,5 @@
 package JavaExam;
 
-
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -11,7 +8,6 @@ import java.util.Random;
 
 public class EsameNin1 {
     public static class RevArray<A> extends ArrayList<A>{
-        @NotNull
         @Override
         public Iterator<A> iterator() {
              return new Iterator<A>() {

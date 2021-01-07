@@ -1,6 +1,5 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,7 +14,6 @@ public class IteStep {
             this.step = step;
         }
 
-        @NotNull
         @Override
         public Iterator<A> iterator() {
             return new Iterator<A>() {

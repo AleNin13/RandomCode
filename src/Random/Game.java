@@ -1,6 +1,5 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -58,7 +57,7 @@ public class Game {
         }
 
         @Override
-        public int compareTo(@NotNull Weapon o) {
+        public int compareTo(Weapon o) {
             return this.damage-((Weapon) o).damage;
         }
     }

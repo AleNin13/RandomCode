@@ -1,6 +1,6 @@
 package Random;
 
-import org.jetbrains.annotations.NotNull;
+
 
 import java.util.Iterator;
 
@@ -12,8 +12,6 @@ public class IteFibo {
             this.size = size;
         }
 
-
-        @NotNull
         @Override
         public Iterator<Integer> iterator() {
             return new Iterator<Integer>() {

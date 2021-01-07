@@ -1,4 +1,4 @@
-package Threads;
+package Random;
 
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 
-public class ThreadBuilder {
+public class RdnStringBuilder {
     public static String toHexString(byte[] hash)
     {
         // Convert byte array into signum representation
